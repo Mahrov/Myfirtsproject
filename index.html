@@ -37,7 +37,7 @@
         <div style="left: 50%; top: 50%; position: absolute; transform: translate(-50%, -50%); text-align: center; width: 130px; height: 165px;
             font-family: Arial, Helvetica, sans-serif; font-weight: 400; line-height: 1.5em; font-size: large;" class="spinner-wrapper">
             <img style="width: 130px; height: 130px; pointer-events: none; user-select: none;" src="data/spin.gif" alt="spin gif">
-            <br>
+            <br>]
             Loading...
         </div>
     </div>
@@ -152,10 +152,10 @@
 
                 // Массив имён файлов .patt. Массив заполняется в порядке добавления маркеров
                 // если вместо .patt был добавлен баркод, на его место в массив добавляется пустая строка
-                const patternNames = ["" ,"" ,""];
+                const patternNames = ["" ,"pattern.patt"];
                 // Maссив баркодов, заполняется одновременно с массивом паттернов
                 // если вместо баркода был добавлен .patt, на его место в массив добавляется -1
-                const patternBarcode = [1 ,2 ,3];
+                const patternBarcode = [1 ,-1];
                 // Массив типов контента для каждого маркера, заполняется значиями: изображение, модель, видео
                 const modes = ["image" ,"image" ,"image"];
                 // Массив файлов моделей, если нет модели будет добавлена пустая строка
